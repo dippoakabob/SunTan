@@ -1,0 +1,10 @@
+name: SunTan
+version: 1.0-BETA
+description: Burn players exposed to the sky!
+author: dippoakabob
+website: dippoakabob.com
+main: com.dippoakabob.suntan.SunTan
+permissions:
+  sun.lotion:
+    description: Shields you from the sun!
+    default: false
