@@ -14,7 +14,9 @@ public class MoveListener implements Listener {
 	@EventHandler
 	public void onMove(PlayerMoveEvent event){
 		Player player = event.getPlayer();
-
+		if(!SunUtils.isBurning(player) && SunUtils.shouldBurn(player)){
+			SunUtils.burn(player);
+		}
 	}
 
 }
